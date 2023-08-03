@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_marketplaces",
+  "info": {
+    "singularName": "test-marketplace",
+    "pluralName": "test-marketplaces",
+    "displayName": "Test-Marketplace",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

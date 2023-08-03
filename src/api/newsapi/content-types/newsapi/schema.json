@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "Author": {
-      "type": "string",
-      "required": true
-    },
     "Image": {
       "type": "media",
       "multiple": true,
@@ -36,6 +32,13 @@
     },
     "Date": {
       "type": "date"
+    },
+    "Author": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
